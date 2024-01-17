@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState ,useEffect } from 'react';
+import { useState } from 'react';
 import {v4 as uuid} from 'uuid';
 import AddListForm from '../AddListForm/AddListForm';
 import './ShowList.css'
@@ -14,7 +14,7 @@ const ShowList = () => {
     }
     const handelDelete=(id)=>{
         setTasks((currTasks)=>{
-            return currTasks.filter((i)=>i.id!=id);
+            return currTasks.filter((i)=>i.id!==id);
         })
     }
   return (
