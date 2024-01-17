@@ -1,0 +1,18 @@
+img{
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+img:hover{
+    transform: scale(1.3);
+}
+a{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: ease-in 0.3s;
+}
+a:hover{
+    transform: scale(1.2);
+}

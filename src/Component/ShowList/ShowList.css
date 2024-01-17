@@ -1,0 +1,51 @@
+.ShowList{
+     background-image: linear-gradient(to top, #051937, #002a61, #003c8d, #004dbb, #125eeb);
+}
+.deleteBtn{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(207, 75, 75);
+    border-radius: 25px;
+    border-color: #051937;
+    color: white;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.All-items{
+    padding:5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border: 2px solid #051937;
+    max-width: 700px;
+}
+.items{
+    width: 400px;
+    color: white;
+    padding: 20px;
+}
+.deleteBtn:hover{
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+@media screen and (max-width:600px){
+    .All-items{
+        max-width: 300px;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .All-items{
+        max-width: 200px;
+    }
+}
